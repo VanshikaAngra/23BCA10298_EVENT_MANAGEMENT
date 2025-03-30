@@ -1,5 +1,5 @@
 #23BCA10298_EVENT_MANAGEMENT
-![Demo] (ezgif-4ca2696de0fd45.gif)
+![Demo](ezgif-4ca2696de0fd45.gif)
 Features
 1. Registration Page
 A user-friendly registration form with fields:
