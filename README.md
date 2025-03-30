@@ -1,6 +1,5 @@
 #23BCA10298_EVENT_MANAGEMENT
 
-
 Features
 1. Registration Page
 A user-friendly registration form with fields:
