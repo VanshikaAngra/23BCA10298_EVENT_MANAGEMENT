@@ -1,81 +1,9 @@
-# 23BCA10298_EVENT_MANAGEMENT
+#23BCA10298_EVENT_MANAGEMENT
 
-This Event Management System is a PHP-powered web application designed to simplify user registration, authentication, and profile management. With a dynamic and interactive interface, it ensures seamless event participation while maintaining security and validation standards.
-
-Key Features
-1. User Registration
-A simple yet intuitive registration form allows users to sign up with:
-
-Personal Details: First Name, Last Name
-
-Contact Information: Phone Number, Email ID
-
-Account Security: Password & Confirm Password
-
-Event Selection: A dropdown menu with 10+ event options, including Dance, Music, Poetry, Art, etc.
-
-Validation Rules:
-✔ Names should contain only letters.
-✔ Phone number must be valid and numeric.
-✔ Email should follow the correct format.
-✔ Passwords must match and meet security criteria.
-✔ Event selection is mandatory.
-
-2. User Login
-Users can access their accounts using:
-
-Credentials: Email ID & Password
-
-Validation & Redirection:
-✔ Ensures correct email format.
-✔ Password field cannot be empty.
-✔ Successful login redirects users to the Home Page.
-
-3. Home Page & Profile Management
-Once logged in, users can:
-
-Upload a Profile Picture
-
-View their registered details (Name, Contact, Email, etc.)
-
-Navigate through an interactive, user-friendly dashboard
-
-Technology Stack
-Backend: PHP
-
-Database: MySQL
-
-Server: XAMPP / WAMP
-
-How to Set Up & Run
-Clone the repository to your local system.
-
-Start a local server (XAMPP or WAMP).
-
-Import the provided database file into MySQL.
-
-Run the application in a browser via localhost.
-
-This system provides a secure and efficient way for users to register, authenticate, and participate in events while ensuring a smooth user experience.
-
-
-
-
-
-
-
-You said:
-simple no tick etc
-
-
-ChatGPT said:
-Event Management System
-Overview
-This is a PHP-based Event Management System that allows users to register, log in, and manage their profiles. It provides a smooth user experience with proper validation and secure authentication.
 
 Features
-1. Registration
-Users can sign up by providing:
+1. Registration Page
+A user-friendly registration form with fields:
 
 First Name, Last Name
 
@@ -83,7 +11,7 @@ Contact Number, Email ID
 
 Password, Confirm Password
 
-Event Selection (Dance, Music, Poetry, Art, etc.)
+Event Selection (Dropdown with 10+ options like Dance, Music, Poetry, Art, etc.)
 
 Validation:
 
@@ -91,36 +19,48 @@ Name fields must contain only letters.
 
 Contact number must be numeric and valid.
 
-Email must follow the correct format.
+Email must be in the correct format.
 
-Passwords must match and meet security standards.
+Passwords must match and meet security requirements.
 
-Event selection is required.
+Event selection is mandatory.
 
-2. Login
-Users can log in using their Email ID and Password.
+2. Login Page
+Users can log in using:
 
-Validation & Redirection:
+Email ID
+
+Password
+
+Validation:
 
 Email must be in the correct format.
 
 Password field cannot be empty.
 
-Successful login redirects users to the Home Page.
+Redirection:
 
-3. Home Page & Profile Management
-Users can:
+If credentials are valid, users are redirected to the Home Page.
 
-Upload a profile picture
+3. Home Page
+Users can create and manage their profiles with:
 
-View their registered details
+Profile picture upload
 
-Use an interactive dashboard for a better experience
+Display of registered details (First Name, Last Name, Contact, etc.)
 
-Technology Used
-PHP for backend development
+An interactive and user-friendly interface for a smooth experience.
+
+Technologies Used
+PHP for backend processing
 
 MySQL for database management
 
-XAMPP or WAMP for local server setup
+How to Run
+Clone the repository.
 
+Set up a local server using XAMPP or WAMP.
+
+Import the database file into MySQL.
+
+Open the project in a browser via localhost.
